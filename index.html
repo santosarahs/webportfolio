@@ -20,7 +20,7 @@
 	</head>
 	<body>
 
-		<!-- Landing Section Start -->
+		<!-- Landing Section Starts-->
 
 		<!-- Navbar Start -->
 		<nav class="navbar navbar-expand-lg">
@@ -50,7 +50,7 @@
 			<!-- Navbar End -->
 
 		<!-- Landing  -->
-		<div class="container p-5" id="landing">
+		<div class="container py-5" id="landing">
 			<div class="row align-items-center">
 
 				<div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
@@ -58,7 +58,7 @@
 				</div>
 
 				<div class="col-md-6 m-4">
-					<h1 class="my-2" id="myName">Sarah Santos</h1>
+					<h1 class="my-4" id="myName">Sarah Santos</h1>
 					<h3 class="my-4" id="myTitle">Full Stack Developer</h3>
 					<p class="text-justify">As an aspiring web developer, I am stepping into a dynamic and ever-evolving field where my creativity and problem-solving skills will shine. I am enthusiastic about learning the latest technologies and frameworks to build engaging and efficient websites and web applications.</p>
 				</div>		
@@ -69,7 +69,7 @@
 		<!-- Landing Section End -->
 
 		<!-- Projects Section Start -->
-		<div class="container" id="projects">
+		<div class="container py-5" id="projects">
 			<h1 class="py-4">My Projects</h1>
 			<div class="row mt-2 pt-3 px-4 justify-content-center g-2" id="row-custom-1">
 
@@ -164,7 +164,7 @@
 		<!-- Projects Section End -->
 
 		<!-- Tools Section Start -->
-		<div class="container" id="tools">
+		<div class="container py-5" id="tools">
 
 			<h1>Tools</h1>
 
@@ -224,25 +224,53 @@
 		<!-- Tools Section End -->
 
 		<!-- Contact Section Start -->
-		<div class="container" id="contact">
+		<div class="container justify-content-center align-items-center py-5" id="contact">
 			<h1>Contact</h1>
 
-			<!-- Social Media Links Start -->
-			<div class="row">
 
+			<!-- Social Media Links Start -->
+			<div class="d-flex justify-content-center gap-5 py-5">
+					<a href="facebook.com" target="blank"><img src="./images/fb.svg"></a>
+					<a href="linkedin.com" target="blank"><img src="./images/lkdn.svg"></a>
+					<a href="gitlab.com" target="blank"><img src="./images/gitlab.svg"></a>
+					<a href="github.com" target="blank"><img src="./images/github.svg"></a>
 			</div>
 			<!-- Social Media Links End -->
 
 			<!-- Map and Form Start -->
-			<div class="row">
+			<div class="row justify-content-center">
 				<!-- Map Start -->
-				<div class="col">
-					
+				<div class="col-md-6 my-5">
+					<div class="map-container">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2075560784438!2d73.5112573!3d4.1795613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f7faa914a3455%3A0x134bd6d6f43a457b!2sPresidential%20Jetty!5e0!3m2!1sen!2sph!4v1723737199758!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+
 				</div>
 				<!-- Contact Form Start -->
-				<div class="col">
-					
-				</div>
+					  <div class="col-md-6 my-5" id="form">
+						<h2>Send Inquiry</h2>
+						<form>
+						  <div class="form-group pt-3">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
+						  </div>
+						  <div class="form-group pt-3">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="juan@gmail.com">
+						  </div>
+						  <div class="form-group pt-3">
+						  	<label for="email">Contact</label>
+						  	<input type="email" class="form-control" id="email" placeholder="0912 345 6789">
+						   </div>
+						  <div class="form-group pt-3">
+							<label for="message">Message</label>
+							<textarea class="form-control" id="message" rows="5" placeholder="I want to know more about your business"></textarea>
+						  </div>
+						  <div class="d-flex justify-content-end pt-3">
+							<button type="submit" class="btn btn-primary ms-auto">Submit</button>
+						  </div>
+						</form>
+					  </div>
 				<!-- Contact Form End -->
 			</div>
 			<!-- Map and Form End -->
