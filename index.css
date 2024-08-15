@@ -8,7 +8,7 @@ body {
 
 .navbar {
 	background: #e46545;
-	position: sticky;
+	position: sticky !important;
 
 }
 
@@ -104,6 +104,10 @@ body {
 
 .proj:hover {
 	transform: scale(1.3);
+}
+
+.image:hover {
+	transform: scale(1.1);
 }
 
 #tools h1 {
