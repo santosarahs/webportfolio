@@ -1,0 +1,133 @@
+body {
+	background: #22211f;
+}
+
+.navbar {
+	background: #22211f;
+	position: sticky;
+
+}
+
+.navbar-brand {
+/*	width: 74px;
+	height: 24px;
+	top: 23px;
+	left: 130px;
+	gap: 0px;
+	opacity: 0px;
+*/
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 24px;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+.nav-link {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+.image {
+/*	width: 150px;
+	height: 150px;*/
+/*	border-radius: 50%;*/
+}
+
+#section1 {
+	background: #22211f;
+}
+
+#projects {
+	background: #22211f;
+}
+
+
+#landing h1 {
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 200;
+	line-height: 24px;
+	text-align: left;
+
+	color: #e46545;
+}
+
+#landing h3 {
+	font-family: Montserrat;
+	font-size: 25px;
+	font-weight: 200;
+	line-height: 24px;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+#landing p {
+	font-family: Montserrat;
+/*	font-size: 30px;*/
+/*	font-weight: 200;*/
+	line-height: 24px;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+#projects h1 {
+	font-family: Montserrat;
+/*	font-size: 30px;*/
+/*	font-weight: 200;*/
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#projects row {
+	size: 70%;
+}
+
+.proj {
+	transition: transform 0.5s;
+}
+
+.proj:hover {
+	transform: scale(1.3);
+}
+
+#tools h1 {
+	font-family: Montserrat;
+/*	font-size: 30px;*/
+/*	font-weight: 200;*/
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#tools h3 {
+	font-family: Montserrat;
+	font-size: 25px;
+	font-weight: 200;
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#contact h1 {
+	font-family: Montserrat;
+/*	font-size: 30px;*/
+/*	font-weight: 200;*/
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
