@@ -160,7 +160,7 @@ body {
 	line-height: 24px;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #e46545;
 }
 
 #contact img {
@@ -191,7 +191,12 @@ body {
 
 #form label {
 	font-family: 'Josefin Sans', sans-serif;
-	color: #e46545
+	color: #e46545;
+}
+
+.btn {
+	background: #e46545;
+	border-color: #e46545;
 }
 
 .footer {
