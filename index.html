@@ -8,12 +8,9 @@
 		<title>Sarah Santos | Web Developer</title>
 
 		<!-- Google Font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-		  href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-		  rel="stylesheet"
-		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
@@ -23,9 +20,11 @@
 		<!-- Landing Section Starts-->
 
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		  <div class="container">
-		    <a class="navbar-brand" href="#landing" id="logo">SSS</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-3">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#landing" id="logo">
+		    	<img src="./images/ssss.png" class="img-fluid">
+		    </a>
 		    <button
 		      class="navbar-toggler"
 		      type="button"
@@ -50,7 +49,7 @@
 			<!-- Navbar End -->
 
 		<!-- Landing  -->
-		<div class="container py-3 py-md-3 my-lg-3" id="landing">
+		<div class="container-fluid p-3 p-md-3" id="landing">
 			<div class="row justify-content-center align-items-center">
 
 				<div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
@@ -69,9 +68,9 @@
 		<!-- Landing Section End -->
 
 		<!-- Projects Section Start -->
-		<div class="container py-3 py-md-3 my-lg-3" id="projects">
-			<h1 class="py-1 ms-md-5">My Projects</h1>
-			<div class="row mt-2 pt-3 px-4 justify-content-center g-2" id="row-custom-1">
+		<div class="container-fluid p-3 p-md-3 mt-3" id="projects">
+			<h1 class="pt-1 ms-md-5">My Projects</h1>
+			<div class="row pt-2 px-4 justify-content-center g-2" id="row-custom-1">
 
 				<!-- Project 1 Start -->
 				<div class="col-md-4 mb-md-5">
@@ -164,15 +163,15 @@
 		<!-- Projects Section End -->
 
 		<!-- Tools Section Start -->
-		<div class="container py-3 py-md-3 my-lg-3" id="tools">
+		<div class="container-fluid" id="tools">
 
 			<h1>Tools</h1>
 
 			<!-- Tools Row Start -->
-			<div class="row justify-content-center my-5">
+			<div class="row justify-content-center mt-4">
 
 				<!-- Tool 1 Start -->
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<h3>Front End</h3>
 					<div id="core-tools" class="d-flex flex-column">
 					    <div id="html-img" class="d-flex justify-content-center">
@@ -188,7 +187,7 @@
 				<!-- Tool 1 End -->
 
 				<!-- Tool 2 Start -->
-				<div class="col-12 col-md-4 px-4">
+				<div class="col-12 col-md-6 col-lg-4 px-4">
 					<h3>MERN</h3>
 					<div id="core-tools" class="d-flex flex-column">
 					    <div id="html-img" class="d-flex justify-content-center">
@@ -204,7 +203,7 @@
 				<!-- Tool 2 End -->
 
 				<!-- Tool 3 Start -->
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-12 col-lg-4">
 					<h3>Other Tools</h3>
 					<div id="core-tools" class="d-flex flex-column">
 					    <div id="html-img" class="d-flex justify-content-center">
@@ -224,12 +223,11 @@
 		<!-- Tools Section End -->
 
 		<!-- Contact Section Start -->
-		<div class="container justify-content-center align-items-center py-3 py-md-3 my-lg-3" id="contact">
+		<div class="container-fluid justify-content-center align-items-center pt-5" id="contact">
+			
 			<h1>Contact</h1>
-
-
 			<!-- Social Media Links Start -->
-			<div class="d-flex justify-content-center gap-5 py-5">
+			<div class="d-flex justify-content-center gap-4 py-3">
 					<a href="https://www.facebook.com/" target="blank"><img src="./images/fb.svg"></a>
 					<a href="https://www.linkedin.com/" target="blank"><img src="./images/lkdn.svg"></a>
 					<a href="https://gitlab.com/" target="blank"><img src="./images/gitlab.svg"></a>
@@ -247,8 +245,8 @@
 
 				</div>
 				<!-- Contact Form Start -->
-					  <div class="col-12 col-md-6 my-5" id="form">
-						<h2>Send Inquiry</h2>
+					  <div class="col-12 col-md-6 my-5 pt-4" id="form">
+						<h3>Ask me Anything!</h3>
 						<form>
 						  <div class="form-group">
 							<label for="name">Name</label>
@@ -258,10 +256,6 @@
 							<label for="email">Email</label>
 							<input type="email" class="form-control" id="email" placeholder="juan@gmail.com">
 						  </div>
-						  <div class="form-group">
-						  	<label for="email">Contact</label>
-						  	<input type="email" class="form-control" id="email" placeholder="0912 345 6789">
-						   </div>
 						  <div class="form-group">
 							<label for="message">Message</label>
 							<textarea class="form-control" id="message" rows="5" placeholder="I want to know more about your business"></textarea>
@@ -278,8 +272,8 @@
 		<!-- Contact Section End -->
 
 		<footer class="footer">
-		  <div class="container text-center py-3" id="footer">
-		  	<span>&copy; 2024 | All rights reserved</span>
+		  <div class="container-fluid text-center py-3" id="footer">
+		  	<span>&copy; 2024 | All rights reserved | For Educational Purposes Only</span>
 		  </div>
 		</footer>
 

@@ -1,17 +1,21 @@
 
 html {
 	scroll-behavior: smooth;
+	font-family: 'Josefin Sans', sans-serif;
 }
 body {
 	background: #22211f;
 }
 
-navbar {
-	background: #e46545;
+.navbar {
+	background: #FFF2E4;
 	position: sticky !important;
 
 }
 
+#logo {
+	width: 50px;
+}
 .navbar-brand {
 /*	width: 74px;
 	height: 24px;
@@ -20,9 +24,9 @@ navbar {
 	gap: 0px;
 	opacity: 0px;
 */
-	font-family: Montserrat;
-	font-size: 24px;
-	font-weight: 900;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 1500;
 	line-height: 24px;
 	text-align: left;
 
@@ -30,7 +34,7 @@ navbar {
 }
 
 .nav-link {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
@@ -45,37 +49,39 @@ navbar {
 /*	border-radius: 50%;*/
 }
 
-#section1 {
+
+#landing {
 	background: #22211f;
 }
 
-#projects {
-	background: #22211f;
+#landing img {
+	width: 300px;
 }
-
 
 #landing h1 {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 50px;
 	font-weight: 200;*/
 	line-height: 24px;
 	text-align: left;
+	letter-spacing: 4px;
 
 	color: #e46545;
 }
 
 #landing h3 {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 25px;
 	font-weight: 200;
 	line-height: 24px;
 	text-align: left;
+	letter-spacing: 4px;
 
 	color: #FFFFFF;
 }
 
 #landing p {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 30px;*/
 /*	font-weight: 200;*/
 	line-height: 24px;
@@ -85,13 +91,13 @@ navbar {
 }
 
 #projects h1 {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 30px;*/
 /*	font-weight: 200;*/
 	line-height: 24px;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #e46545;
 }
 
 #projects row {
@@ -111,23 +117,7 @@ navbar {
 }
 
 #tools h1 {
-	font-family: Montserrat;
-/*	font-size: 30px;*/
-/*	font-weight: 200;*/
-	line-height: 24px;
-	text-align: center;
-
-	color: #FFFFFF;
-}
-
-#tools h3 {
-	font-family: Montserrat;
-	font-size: 25px;
-	font-weight: 200;
-	line-height: 24px;
-	text-align: center;
-
-	color: 	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 30px;*/
 /*	font-weight: 200;*/
 	line-height: 24px;
@@ -136,8 +126,35 @@ navbar {
 	color: #e46545;
 }
 
+#tools h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+	line-height: 24px;
+	text-align: center;
+
+/*	font-size: 30px;*/
+/*	font-weight: 200;*/
+	line-height: 24px;
+	text-align: center;
+
+	color: #e46545;
+}
+
+#tools img {
+	filter: grayscale(100%);
+}
+
+#tools img:hover {
+	filter:none;
+}
+
+#contact {
+	background: #22211f;
+}
+
 #contact h1 {
-	font-family: Montserrat;
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 30px;*/
 /*	font-weight: 200;*/
 	line-height: 24px;
@@ -147,15 +164,15 @@ navbar {
 }
 
 #contact img {
-	width: 50px;
+	width: 40px;
 }
 
-#contact h2 {
-	font-family: Montserrat;
+#contact h3 {
+	font-family: 'Josefin Sans', sans-serif;
 /*	font-size: 30px;*/
 /*	font-weight: 200;*/
 	line-height: 24px;
-	text-align: center;
+	text-align: left;
 
 	color: #FFFFFF;
 }
@@ -168,12 +185,18 @@ navbar {
     width: 100%;
     height: 100%;
     border: 0;
-    
+    filter: grayscale(1) contrast(83%);
+
+}
+
+#form label {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e46545
 }
 
 .footer {
     background: #FFF2E4;
-    font-family: Montserrat;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 19.5px;
