@@ -1,285 +1,403 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Bootstrap Link -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+		<title>Sarah Santos | Full Stack Web Developer</title>
+		<meta
+			name="description"
+			content="Portfolio of Sarah Santos, a full stack web developer building responsive, accessible websites and MERN-stack web applications."
+		/>
+		<meta name="theme-color" content="#22211f" />
+		<meta name="author" content="Sarah Santos" />
 
-		<title>Sarah Santos | Web Developer</title>
+		<!-- Open Graph / social sharing -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Sarah Santos | Full Stack Web Developer" />
+		<meta
+			property="og:description"
+			content="Portfolio of Sarah Santos, a full stack web developer building responsive, accessible websites and MERN-stack web applications."
+		/>
+		<meta property="og:image" content="./images/sarah.png" />
+		<meta name="twitter:card" content="summary_large_image" />
 
-		<!-- Google Font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" href="./images/ssss.png" />
+		<link rel="apple-touch-icon" href="./images/ssss.png" />
 
-		<link rel="stylesheet" type="text/css" href="./index.css">
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
 
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" type="text/css" href="./index.css" />
+		<script src="./index.js" defer></script>
 	</head>
 	<body>
-
-		<!-- Landing Section Starts-->
+		<a class="skip-link" href="#landing">Skip to main content</a>
 
 		<!-- Navbar Start -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-3">
-		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#landing" id="logo">
-		    	<img src="./images/ssss.png" class="img-fluid">
-		    </a>
-		    <button
-		      class="navbar-toggler"
-		      type="button"
-		      data-bs-toggle="collapse"
-		      data-bs-target="#navbarNavAltMarkup"
-		      aria-controls="navbarNavAltMarkup"
-		      aria-expanded="false"
-		      aria-label="Toggle navigation"
-		    >
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		      <div class="navbar-nav ms-auto">
-		        <a class="nav-link me-3 active" aria-current="page" href="#landing">ABOUT ME</a>
-		        <a class="nav-link me-3" href="#projects">PROJECTS</a>
-		        <a class="nav-link me-3" href="#tools">TOOLS</a>
-		        <a class="nav-link me-3" href="#contact">CONTACT</a>
-		      </div>
-		    </div>
-		  </div>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#landing" id="logo" aria-label="Sarah Santos — home">
+					<img src="./images/ssss.png" class="img-fluid" alt="Sarah Santos monogram logo" width="50" height="50" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link me-3 active" aria-current="page" href="#landing">ABOUT ME</a>
+						<a class="nav-link me-3" href="#projects">PROJECTS</a>
+						<a class="nav-link me-3" href="#tools">TOOLS</a>
+						<a class="nav-link me-3" href="#contact">CONTACT</a>
+					</div>
+				</div>
+			</div>
 		</nav>
-			<!-- Navbar End -->
+		<!-- Navbar End -->
 
-		<!-- Landing  -->
-		<div class="container-fluid p-3 p-md-3" id="landing">
-			<div class="row justify-content-center align-items-center">
-
-				<div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
-					<img src="./images/sarah.png" class="image img-fluid">
-				</div>
-
-				<div class="col-md-6 m-4">
-					<h1 class="my-4" id="myName">Sarah Santos</h1>
-					<h3 class="my-4" id="myTitle">Full Stack Developer</h3>
-					<p class="text-justify">As an aspiring web developer, I am stepping into a dynamic and ever-evolving field where my creativity and problem-solving skills will shine. I am enthusiastic about learning the latest technologies and frameworks to build engaging and efficient websites and web applications.</p>
-				</div>		
-			</div>
-		</div>
-		<!-- Landing End  -->
-
-		<!-- Landing Section End -->
-
-		<!-- Projects Section Start -->
-		<div class="container-fluid p-3 p-md-3 mt-3" id="projects">
-			<h1 class="pt-1 ms-md-5">My Projects</h1>
-			<div class="row pt-2 px-4 justify-content-center g-2" id="row-custom-1">
-
-				<!-- Project 1 Start -->
-				<div class="col-md-4 mb-md-5">
-					<div data-bs-toggle="modal" data-bs-target="#modal1">
-						<img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid proj">
+		<main>
+			<!-- Landing Start -->
+			<section class="container-fluid p-3 p-md-3" id="landing" aria-labelledby="myName">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0 reveal">
+						<img src="./images/sarah.png" class="image img-fluid" alt="Portrait of Sarah Santos" width="522" height="768" />
 					</div>
 
-					<!-- Modal -->
-					<div class="modal" tabindex="-1" id="modal1">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title">Mobile Responsive Applications</h5>
-					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					      </div>
-					      <div class="modal-body">
-					      	<img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid">
-					        <p>Mobile responsiveness refers to whether a website is optimised to be functional and aesthetically pleasing on devices of different sizes.</p>
-					      </div>
-					      <div class="modal-footer">
-					      	<button type="button" class="btn btn-primary">Go to Page</button>
-					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- Modal End -->
-				</div>
-				<!-- Project 1 End -->
-
-				<!-- Project 2 Start -->
-				<div class="col-md-4 mb-md-5">
-					<div data-bs-toggle="modal" data-bs-target="#modal2">
-						<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid proj">
-					</div>
-
-					<!-- Modal -->
-					<div class="modal" tabindex="-1" id="modal2">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title">Search Engine Optimization</h5>
-					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					      </div>
-					      <div class="modal-body">
-					      	<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid">
-					        <p>SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines.</p>
-					      </div>
-					      <div class="modal-footer">
-					      	<button type="button" class="btn btn-primary">Go to Page</button>
-					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- Modal End -->
-				</div>
-				<!-- Project 2 End -->
-
-				<!-- Project 3 Start -->
-				<div class="col-md-4 mb-md-5">
-					<div data-bs-toggle="modal" data-bs-target="#modal3">
-						<img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid proj">
-					</div>
-
-					<!-- Modal -->
-					<div class="modal" tabindex="-1" id="modal3">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title">Coding Best Practices</h5>
-					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					      </div>
-					      <div class="modal-body">
-					      	<img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid">
-					        <p>Think of coding standards as a set of rules, techniques, and best practices to create cleaner, more readable, more efficient code with minimal errors. They offer a uniform format by which software engineers can use to build sophisticated and highly functional code.</p>
-					      </div>
-					      <div class="modal-footer">
-					      	<button type="button" class="btn btn-primary">Go to Page</button>
-					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- Modal End -->
-				</div>
-				<!-- Project 3 End -->
-			</div>
-		</div>
-		<!-- Projects Section End -->
-
-		<!-- Tools Section Start -->
-		<div class="container-fluid" id="tools">
-
-			<h1>Tools</h1>
-
-			<!-- Tools Row Start -->
-			<div class="row justify-content-center mt-4">
-
-				<!-- Tool 1 Start -->
-				<div class="col-12 col-md-6 col-lg-4">
-					<h3>Front End</h3>
-					<div id="core-tools" class="d-flex flex-column">
-					    <div id="html-img" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-html5.png" />
-					      <img class="img-fluid" width="150" src="images/logo-css3.png" />
-					    </div>
-					    <div id="css-js" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-bootstrap.png" />
-					      <img class="img-fluid" width="150" src="images/logo-javascript.png" />
-					    </div>
+					<div class="col-md-6 m-4 reveal">
+						<h1 class="my-4" id="myName">Sarah Santos</h1>
+						<h3 class="my-4" id="myTitle">Full Stack Developer</h3>
+						<p class="text-justify">
+							As an aspiring web developer, I am stepping into a dynamic and ever-evolving field where my creativity and
+							problem-solving skills will shine. I am enthusiastic about learning the latest technologies and frameworks to
+							build engaging and efficient websites and web applications.
+						</p>
+						<div class="d-flex flex-wrap gap-3 mt-4">
+							<a href="#projects" class="btn btn-primary">View Projects</a>
+							<a href="#contact" class="btn btn-outline-light">Get in Touch</a>
+						</div>
 					</div>
 				</div>
-				<!-- Tool 1 End -->
+			</section>
+			<!-- Landing End -->
 
-				<!-- Tool 2 Start -->
-				<div class="col-12 col-md-6 col-lg-4 px-4">
-					<h3>MERN</h3>
-					<div id="core-tools" class="d-flex flex-column">
-					    <div id="html-img" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-mongodb.png" />
-					      <img class="img-fluid" width="150" src="images/logo-expressjs.png" />
-					    </div>
-					    <div id="css-js" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-react.png" />
-					      <img class="img-fluid" width="150" src="images/logo-nodejs.png" />
-					    </div>
+			<!-- Projects Start -->
+			<section class="container-fluid p-3 p-md-3 mt-3" id="projects" aria-labelledby="projects-heading">
+				<h1 class="pt-1 ms-md-5" id="projects-heading">My Projects</h1>
+				<div class="row pt-2 px-4 justify-content-center g-4" id="row-custom-1">
+					<!-- Project 1 -->
+					<div class="col-md-4 mb-md-5 reveal">
+						<button
+							class="project-card p-0 border-0 bg-transparent w-100"
+							data-bs-toggle="modal"
+							data-bs-target="#modal1"
+							aria-label="Open details: Mobile Responsive Applications"
+						>
+							<img
+								src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								class="img-fluid proj"
+								alt="Desktop computer displaying a web application mockup"
+								loading="lazy"
+							/>
+							<span class="project-card__caption">Mobile Responsive Applications</span>
+						</button>
+
+						<div class="modal fade" tabindex="-1" id="modal1" aria-labelledby="modal1-title" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title h5" id="modal1-title">Mobile Responsive Applications</h2>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img
+											src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+											class="img-fluid mb-3"
+											alt="Desktop computer displaying a web application mockup"
+											loading="lazy"
+										/>
+										<p>
+											Mobile responsiveness refers to whether a website is optimised to be functional and aesthetically
+											pleasing on devices of different sizes.
+										</p>
+									</div>
+									<div class="modal-footer">
+										<a
+											href="https://github.com/santosarahs?tab=repositories"
+											target="_blank"
+											rel="noopener"
+											class="btn btn-primary"
+											>Go to Page</a
+										>
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Project 1 End -->
+
+					<!-- Project 2 -->
+					<div class="col-md-4 mb-md-5 reveal">
+						<button
+							class="project-card p-0 border-0 bg-transparent w-100"
+							data-bs-toggle="modal"
+							data-bs-target="#modal2"
+							aria-label="Open details: Search Engine Optimization"
+						>
+							<img
+								src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+								class="img-fluid proj"
+								alt="Laptop showing analytics charts"
+								loading="lazy"
+							/>
+							<span class="project-card__caption">Search Engine Optimization</span>
+						</button>
+
+						<div class="modal fade" tabindex="-1" id="modal2" aria-labelledby="modal2-title" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title h5" id="modal2-title">Search Engine Optimization</h2>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img
+											src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+											class="img-fluid mb-3"
+											alt="Laptop showing analytics charts"
+											loading="lazy"
+										/>
+										<p>
+											SEO stands for &ldquo;search engine optimization.&rdquo; In simple terms, it means the process of
+											improving your site to increase its visibility when people search for products or services related to
+											your business in Google, Bing, and other search engines.
+										</p>
+									</div>
+									<div class="modal-footer">
+										<a
+											href="https://github.com/santosarahs?tab=repositories"
+											target="_blank"
+											rel="noopener"
+											class="btn btn-primary"
+											>Go to Page</a
+										>
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Project 2 End -->
+
+					<!-- Project 3 -->
+					<div class="col-md-4 mb-md-5 reveal">
+						<button
+							class="project-card p-0 border-0 bg-transparent w-100"
+							data-bs-toggle="modal"
+							data-bs-target="#modal3"
+							aria-label="Open details: Coding Best Practices"
+						>
+							<img
+								src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+								class="img-fluid proj"
+								alt="Close-up of source code on a screen"
+								loading="lazy"
+							/>
+							<span class="project-card__caption">Coding Best Practices</span>
+						</button>
+
+						<div class="modal fade" tabindex="-1" id="modal3" aria-labelledby="modal3-title" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title h5" id="modal3-title">Coding Best Practices</h2>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img
+											src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+											class="img-fluid mb-3"
+											alt="Close-up of source code on a screen"
+											loading="lazy"
+										/>
+										<p>
+											Think of coding standards as a set of rules, techniques, and best practices to create cleaner, more
+											readable, more efficient code with minimal errors. They offer a uniform format by which software
+											engineers can use to build sophisticated and highly functional code.
+										</p>
+									</div>
+									<div class="modal-footer">
+										<a
+											href="https://github.com/santosarahs?tab=repositories"
+											target="_blank"
+											rel="noopener"
+											class="btn btn-primary"
+											>Go to Page</a
+										>
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Project 3 End -->
+				</div>
+			</section>
+			<!-- Projects End -->
+
+			<!-- Tools Start -->
+			<section class="container-fluid" id="tools" aria-labelledby="tools-heading">
+				<h1 id="tools-heading">Tools</h1>
+
+				<div class="row justify-content-center mt-4 g-4">
+					<div class="col-12 col-md-6 col-lg-4 reveal">
+						<h3>Front End</h3>
+						<div class="core-tools d-flex flex-column">
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-html5.png" alt="HTML5" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-css3.png" alt="CSS3" />
+							</div>
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-bootstrap.png" alt="Bootstrap" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-javascript.png" alt="JavaScript" />
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 px-4 reveal">
+						<h3>MERN</h3>
+						<div class="core-tools d-flex flex-column">
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-mongodb.png" alt="MongoDB" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-expressjs.png" alt="Express.js" />
+							</div>
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-react.png" alt="React" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-nodejs.png" alt="Node.js" />
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-12 col-lg-4 reveal">
+						<h3>Other Tools</h3>
+						<div class="core-tools d-flex flex-column">
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-heroku.png" alt="Heroku" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-git.png" alt="Git" />
+							</div>
+							<div class="tool-row d-flex justify-content-center">
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-postman.png" alt="Postman" />
+								<img class="img-fluid" width="150" height="150" loading="lazy" src="images/logo-sublime-text-3.png" alt="Sublime Text 3" />
+							</div>
+						</div>
 					</div>
 				</div>
-				<!-- Tool 2 End -->
+			</section>
+			<!-- Tools End -->
 
-				<!-- Tool 3 Start -->
-				<div class="col-12 col-md-12 col-lg-4">
-					<h3>Other Tools</h3>
-					<div id="core-tools" class="d-flex flex-column">
-					    <div id="html-img" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-heroku.png" />
-					      <img class="img-fluid" width="150" src="images/logo-git.png" />
-					    </div>
-					    <div id="css-js" class="d-flex justify-content-center">
-					      <img class="img-fluid" width="150" src="images/logo-postman.png" />
-					      <img class="img-fluid" width="150" src="images/logo-sublime-text-3.png" />
-					    </div>
-					</div>
+			<!-- Contact Start -->
+			<section class="container-fluid justify-content-center align-items-center pt-5 px-5" id="contact" aria-labelledby="contact-heading">
+				<h1 id="contact-heading">Contact</h1>
+
+				<div class="d-flex justify-content-center gap-4 py-3">
+					<a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+						<img src="./images/fb.svg" alt="" width="40" height="40" />
+					</a>
+					<a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+						<img src="./images/lkdn.svg" alt="" width="40" height="40" />
+					</a>
+					<a href="https://gitlab.com/" target="_blank" rel="noopener" aria-label="GitLab">
+						<img src="./images/gitlab.svg" alt="" width="40" height="40" />
+					</a>
+					<a href="https://github.com/santosarahs" target="_blank" rel="noopener" aria-label="GitHub">
+						<img src="./images/github.svg" alt="" width="40" height="40" />
+					</a>
 				</div>
-				<!-- Tool 3 End -->
-			</div>
-			<!-- Tools Row End -->
-		</div>
-		<!-- Tools Section End -->
 
-		<!-- Contact Section Start -->
-		<div class="container-fluid justify-content-center align-items-center pt-5 px-5" id="contact">
-			
-			<h1>Contact</h1>
-			<!-- Social Media Links Start -->
-			<div class="d-flex justify-content-center gap-4 py-3">
-					<a href="https://www.facebook.com/" target="blank"><img src="./images/fb.svg"></a>
-					<a href="https://www.linkedin.com/" target="blank"><img src="./images/lkdn.svg"></a>
-					<a href="https://gitlab.com/" target="blank"><img src="./images/gitlab.svg"></a>
-					<a href="https://github.com/" target="blank"><img src="./images/github.svg"></a>
-			</div>
-			<!-- Social Media Links End -->
-
-			<!-- Map and Form Start -->
-			<div class="row justify-content-center">
-				<!-- Map Start -->
-				<div class="col-12 col-md-6">
-					<div class="map-container my-5">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2075560784438!2d73.5112573!3d4.1795613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f7faa914a3455%3A0x134bd6d6f43a457b!2sPresidential%20Jetty!5e0!3m2!1sen!2sph!4v1723737199758!5m2!1sen!2sph" width="450" height="530" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-6">
+						<div class="map-container my-5">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2075560784438!2d73.5112573!3d4.1795613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f7faa914a3455%3A0x134bd6d6f43a457b!2sPresidential%20Jetty!5e0!3m2!1sen!2sph!4v1723737199758!5m2!1sen!2sph"
+								width="450"
+								height="530"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								class="map"
+								title="Map showing location"
+							></iframe>
+						</div>
 					</div>
 
-				</div>
-				<!-- Contact Form Start -->
-					  <div class="col-12 col-md-6 my-5 pt-4" id="form">
+					<div class="col-12 col-md-6 my-5 pt-4" id="form">
 						<h3>Ask me Anything!</h3>
-						<form>
-						  <div class="form-group">
-							<label for="name">Name</label>
-							<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
-						  </div>
-						  <div class="form-group">
-							<label for="email">Email</label>
-							<input type="email" class="form-control" id="email" placeholder="juan@gmail.com">
-						  </div>
-						  <div class="form-group">
-							<label for="message">Message</label>
-							<textarea class="form-control" id="message" rows="5" placeholder="I want to know more about your business"></textarea>
-						  </div>
-						  <div class="d-flex justify-content-end pt-3">
-							<button type="submit" class="btn btn-primary ms-auto">Submit</button>
-						  </div>
+						<form id="contact-form" novalidate>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Juan Dela Cruz" required autocomplete="name" />
+								<div class="invalid-feedback">Please enter your name.</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="juan@gmail.com" required autocomplete="email" />
+								<div class="invalid-feedback">Please enter a valid email address.</div>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message" name="message" rows="5" placeholder="I want to know more about your business" required></textarea>
+								<div class="invalid-feedback">Please enter a message.</div>
+							</div>
+							<!-- Honeypot: hidden from real users, catches bots -->
+							<div class="d-none" aria-hidden="true">
+								<label for="website">Leave this field empty</label>
+								<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+							</div>
+							<div class="d-flex justify-content-end pt-3">
+								<button type="submit" class="btn btn-primary ms-auto">Submit</button>
+							</div>
+							<p id="form-status" class="form-status mt-3" role="status" aria-live="polite"></p>
 						</form>
-					  </div>
-				<!-- Contact Form End -->
-			</div>
-			<!-- Map and Form End -->
-		</div>
-		<!-- Contact Section End -->
+					</div>
+				</div>
+			</section>
+			<!-- Contact End -->
+		</main>
 
 		<footer class="footer">
-		  <div class="container-fluid text-center py-3" id="footer">
-		  	<span>&copy; 2024 | All rights reserved | For Educational Purposes Only</span>
-		  </div>
+			<div class="container-fluid text-center py-3" id="footer">
+				<span>&copy; <span id="year">2024</span> Sarah Santos &nbsp;|&nbsp; All rights reserved &nbsp;|&nbsp; For Educational Purposes Only</span>
+			</div>
 		</footer>
 
+		<button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>&uarr;</button>
 
-
-		<!-- Bootstrap Stcript -->
-	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!-- Bootstrap Script -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
